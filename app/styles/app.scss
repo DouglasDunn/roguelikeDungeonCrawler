@@ -1,3 +1,58 @@
-p {
-  color: #777;
+.gameBoardArray {
+  width: 600px;
+  height: 600px;
+}
+
+.row {
+  width: 600px;
+  height: 6px;
+}
+
+.wall {
+  width: 6px;
+  height: 6px;
+  background: black;
+  display: inline-block;
+}
+
+.floor {
+  width: 6px;
+  height: 6px;
+  background: gray;
+  display: inline-block;
+}
+
+.player {
+  width: 6px;
+  height: 6px;
+  background: blue;
+  display: inline-block;
+}
+
+.monster {
+  width: 6px;
+  height: 6px;
+  background: red;
+  display: inline-block;
+}
+
+.health {
+  width: 6px;
+  height: 6px;
+  background: green;
+  display: inline-block;
+}
+
+.weapon {
+  width: 6px;
+  height: 6px;
+  background: yellow;
+  display: inline-block;
+}
+
+.door {
+  width: 6px;
+  height: 6px;
+  background: purple;
+  display: inline-block;
 }

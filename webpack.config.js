@@ -23,6 +23,10 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: "app/components/Main.jsx",
+      RenderDungeon: "app/components/RenderDungeon.jsx",
+      CreateRooms: "app/components/CreateRooms.jsx",
+      CreateCharactersAndItems: "app/components/CreateCharactersAndItems.jsx",
+      MovePlayer: "app/components/MovePlayer.jsx",
       applicationStyles: "app/styles/app.scss"
     },
     extensions: ["", ".js", ".jsx"]

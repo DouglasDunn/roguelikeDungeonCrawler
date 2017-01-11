@@ -1,0 +1,17 @@
+V1 Requirements
+(x) create a 100 by 100 map using a two dimensional array.
+(x) render it to the screen.
+
+V2 Requirements
+(x) create a 10 by 10 room right in the middle of the dungeon and have wall tile values equal 0 and floor tile values equal 1.
+(x) get a random coordinate for x and y. If coordinate is a wall, check left, right, bottom, and top neighbors if anyone of them are floor tiles.
+(x) Create a random width and height for the room.
+(x) Check if the rooms doesn't go out of the boundaries of the map.
+
+V3 Requirements
+(x) create 1 player tile, 7 monster tiles, 3 health potion tiles, 2 weapon tiles, and 1 door tile.
+(x) render the tiles to the screen
+
+V4 Requirements
+(x) handle the event "on key down" for when the player moves around
+(x) if player tries to move through a wall, return from the function
