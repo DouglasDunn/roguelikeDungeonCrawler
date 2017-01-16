@@ -27,6 +27,11 @@ module.exports = {
       CreateRooms: "app/components/CreateRooms.jsx",
       CreateCharactersAndItems: "app/components/CreateCharactersAndItems.jsx",
       MovePlayer: "app/components/MovePlayer.jsx",
+      Player: "app/components/Player.jsx",
+      Monster: "app/components/Monster.jsx",
+      BossMonster: "app/components/BossMonster.jsx",
+      GameData: "app/components/GameData.jsx",
+      Modal: "app/components/Modal.jsx",
       applicationStyles: "app/styles/app.scss"
     },
     extensions: ["", ".js", ".jsx"]

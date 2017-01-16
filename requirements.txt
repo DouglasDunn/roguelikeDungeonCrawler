@@ -15,3 +15,34 @@ V3 Requirements
 V4 Requirements
 (x) handle the event "on key down" for when the player moves around
 (x) if player tries to move through a wall, return from the function
+(x) if player moves to a monster, health, weapon, or door tile, log the word to the console for now.
+
+V5 Requirements
+(x) Create a player class that has initial properties health of 100, attack 0f 10, experienceLeft of 100, and level of 1
+(x) If player moves on a health potion, Its health will be added by 50
+(x) If player moves on a weapon, its attack will increase by 20
+
+V6 Requirements
+(x) Create a monster class that has initial properties of health of 30 and attack of 10
+(x) In Main.jsx, create 7 instances of the monster class and keep track of each one by sticking its coordinate onto it
+(x) If player attacks a monster, for now, player will do damage with its attack property and monster will do damage with its attack property
+(x) If player kill monster, decrease player's experienceLeft by 10
+(x) If player's experienceLeft is 0, reset the experienceLeft to 100, increment player's level by 1, increase player's attack by 10 and health by 20
+
+V7 Requirements
+(x) If monster kills the player, reset the map and reset dungeonLevel back to 1
+(x) If player moves on a door tile, increment dungeonLevel by 1 and move onto a new dungeon.
+
+V8 Requirements
+(x) If dungeonLevel equals 4, create a bossMonster
+(x) Create a BossMonster class with initial health of 400 and attack of 40
+(x) If bossMonster is killed, reset the game
+(x) If dungeonLevel is 4, don't render a door
+(x) If bossMonster kills player, reset the game
+
+V9 Requirements
+(x) Create Darkness around the player and reveal only a certain amount of spaces for it
+(x) Add a toggle darkness button that switches the light from on to off and off to on
+(x) Display the game data on top of the game board
+() Display a winner modal when player wins the game
+() Display a loser modal when player loses the game
